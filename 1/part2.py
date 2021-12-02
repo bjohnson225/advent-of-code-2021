@@ -15,4 +15,4 @@ for idx, val in enumerate(input):
         next_window = input[idx + 1] + input[idx + 2] + input[idx + 3]
         if current_window < next_window:
             # print(str(current_window) + " - " + str(next_window))
-            count = count + 1
+            count += 1
