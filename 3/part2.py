@@ -47,5 +47,7 @@ for i in range(0, 12):
         generator = list(filter(lambda x: True if (x.startswith(epsilon)) else False, generator))
 
 
-print(scrubber)
+print(scrubber) 
 print(generator)
+
+print(int(scrubber[0], 2) * int(generator[0],2) )
