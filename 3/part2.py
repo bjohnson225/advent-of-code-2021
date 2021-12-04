@@ -44,7 +44,7 @@ for i in range(0, 12):
         epsilon += '1'           
     
     if(len(generator) > 1):
-        generator = list(filter(lambda x: True if (x.startswith(epsilon)) else False, generator))
+        generator = list(filter(lambda x: x.startswith(epsilon), generator))
 
 
 print(scrubber) 
